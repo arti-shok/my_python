@@ -47,7 +47,7 @@ label3.grid(row=2, column=0)
 entry3 = Entry(frame1)
 entry3.grid(row=2, column=1)
 
-button1 = Button(frame1,text='заказать', command=set_task)
+button1 = Button(frame1,text='добавить', command=set_task)
 button1.grid(row=3, column=1)
 button2 = Button(frame1,text='список задач', command=show_tasks)
 button2.grid(row=4, column=1)
